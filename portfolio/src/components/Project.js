@@ -43,19 +43,16 @@ export default function Project() {
                             >
                                 {project.title}
                             </a>
+                           
                         </h3>
                         <div className="text-grey-500 text-xs space-x-4">
+                           
                             <span>
                                 <strong className="font-bold">Finished on</strong>:{" "}
                                 {new Date(project.date).toLocaleDateString()}
                             </span>
                             <span></span>
-                            <strong className="font-bold">Company</strong>:{" "}
-                            {project.place}
-                            <span>
-                                <strong className="font-bold">Type</strong>:{" "}
-                                {project.projectType}
-                            </span>
+                           
                             <p className="my-6 text-lg text-grey-700 leading-relaxed">
                                 {project.description}
                                 </p>
